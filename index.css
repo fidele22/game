@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgb(46, 45, 45);
+    color: aliceblue;
+}
+P{
+    text-align: left;
+    text-transform: capitalize;
+    text-indent: 50px;
+    padding: 10px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    
+}
+.container{
+    float: left;
+    clear: left;
+}
+.col3{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}
+.col3 > *{
+    margin: 10px 0;
+    width: 100%;
+}
+.col3 button{
+    background-color: green;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+}
+.col3 button:hover{
+    background-color: gray;
+    color: black;
+}
+.clearfix{
+    border: 2px solid green;
+    overflow: auto;
+    padding: 5px;
+    margin: 5px;
+}
+.clearfix img{
+    float: left;
+    padding: 2px;
+}
